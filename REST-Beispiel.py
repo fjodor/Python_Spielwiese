@@ -2,7 +2,8 @@ import requests
 
 url = 'https://nominatim.openstreetmap.org/search'
 params = {'format': 'json', 'q': 'dresden'}
-headers = {'Referer': 'https://johannesloetzsch.github.io/python-tutorial'}
+# headers = {'Referer': 'https://johannesloetzsch.github.io/python-tutorial'}
+# headers = {'Referer': 'https://github.com/fjodor/'}
 
 response = requests.get(url, params=params, headers=headers)
 

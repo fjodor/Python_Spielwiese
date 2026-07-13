@@ -1,0 +1,20 @@
+ALGORITHMUS BubbleSort
+// Sortiert Feld A[1..n] aufsteigend
+
+EINGABE: Feld A mit n Elementen
+AUSGABE: sortiertes Feld A
+
+VAR i, j : INTEGER
+VAR temp  : INTEGER
+
+FÜR i ← 1 BIS n - 1 WIEDERHOLE
+    FÜR j ← 1 BIS n - i WIEDERHOLE
+        WENN A[j] > A[j + 1] DANN
+            temp    ← A[j]
+            A[j]    ← A[j + 1]
+            A[j + 1]← temp
+        ENDE WENN
+    ENDE FÜR
+ENDE FÜR
+
+ENDE ALGORITHMUS

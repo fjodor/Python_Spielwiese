@@ -1,0 +1,16 @@
+ALGORITHMUS InsertionSort
+    EINGABE: Feld A mit n Elementen
+    AUSGABE: Sortiertes Feld A (aufsteigend)
+
+    FÜR i VON 1 BIS n-1
+        key ← A[i]
+        j ← i - 1
+
+        WÄHREND j ≥ 0 UND A[j] > key
+            A[j + 1] ← A[j]
+            j ← j - 1
+        ENDE WÄHREND
+
+        A[j + 1] ← key
+    ENDE FÜR
+ENDE ALGORITHMUS

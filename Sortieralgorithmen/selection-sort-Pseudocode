@@ -1,0 +1,20 @@
+ALGORITHMUS SelectionSort
+    EINGABE: Feld A mit n Elementen
+    AUSGABE: Sortiertes Feld A (aufsteigend)
+
+    FÜR i VON 0 BIS n-2
+        minIndex ← i
+
+        FÜR j VON i+1 BIS n-1
+            WENN A[j] < A[minIndex] DANN
+                minIndex ← j
+            ENDE WENN
+        ENDE FÜR
+
+        WENN minIndex ≠ i DANN
+            TEMP ← A[i]
+            A[i] ← A[minIndex]
+            A[minIndex] ← TEMP
+        ENDE WENN
+    ENDE FÜR
+ENDE ALGORITHMUS

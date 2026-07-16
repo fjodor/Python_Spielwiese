@@ -8,7 +8,7 @@
 # 2. csv einlesen
 
 import pandas as pd
-df = pd.read_csv("albums2000.csv")
+df = pd.read_csv("data/albums2000.csv")
 
 # Alternative
 # import csv

@@ -1,1 +1,1 @@
-Sammlung von Python-Skripten zum spielerischen Ausprobieren
+Sammlung von Python- und SQL-Skripten zum spielerischen Ausprobieren

@@ -1,0 +1,6 @@
+Westermann 10a 1.4.2
+
+Environment: Bash (Terminal)
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt

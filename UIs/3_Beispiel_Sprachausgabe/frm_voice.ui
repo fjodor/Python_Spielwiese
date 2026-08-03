@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Beispiel Sprachausgabe</string>
+  </property>
+  <widget class="QPushButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>170</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Beenden</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Geben Sie den Text ein, welcher vorgelsen werden soll!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRead">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vorlesen</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbGerman">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>60</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Deutsch</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbEnglish">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Englisch</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>321</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnClose</sender>
+   <signal>clicked()</signal>
+   <receiver>btnClose</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>401</x>
+     <y>183</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>401</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnRead</sender>
+   <signal>clicked()</signal>
+   <receiver>btnRead</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>203</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>179</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
